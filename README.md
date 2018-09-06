@@ -1,4 +1,4 @@
-# y
+# element-imitate
 
 > A Vue.js project
 
