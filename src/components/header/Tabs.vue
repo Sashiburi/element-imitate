@@ -1,8 +1,8 @@
 <template>
     <div class="tabs-wrapper">
         <ul class="tabs">
-            <li v-for="(item,i) in tabs" 
-                class="tab-item"
+            <li class="tab-item" 
+                v-for="(item,i) in tabs"                
                 :key="`tab-item-${i}`">
                 <router-link :to="item.path">{{item.name}}</router-link>
             </li>
