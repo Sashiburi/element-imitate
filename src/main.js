@@ -4,12 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import axios from '@/common/js/axios.js'
+// import ERR_NO from '@common/js/global.js'
 
 import '@/common/scss/index.scss'
 
 Vue.config.productionTip = false
 Vue.prototype.$http = axios
-
+// Vue.prototype._ERR_NO = ERR_NO
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
